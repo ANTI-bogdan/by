@@ -1,0 +1,235 @@
+html,body h1, p{
+    margin: 0;
+}
+.first{
+    background-color: rgb(245, 160, 245);
+}
+.nav ul{
+    display: flex;
+    justify-content: right;
+    font-size: 100%;
+}
+.nav ul li {
+    margin-left: 2%;
+    list-style-type: none; ;
+}
+.first button{
+    background-color: rgb(255, 136, 0);
+    margin: 0 auto;
+    display: block;
+    border: 0;
+    border-bottom: 3px;
+    border-color: #B0B0B0;
+    width: 250px;
+    height: 40px;
+    color: white;
+    font-weight: 900;
+    border-radius: 5%;
+}
+.second > div {
+margin: 10px;
+text-align: center;
+display:inline-block;
+}
+.second{
+    background-color: rgb(159, 242, 214);
+    border-top: 10px solid #fff;
+}
+.second h1, p{
+    text-align: center;
+}
+.second hr{
+    width: 5%;
+    border: none;
+    border-top: 3px solid #B0B0B0;
+}
+.second img{
+    width: 350px;
+    height: 300px;
+}
+.third{
+    background-color: rgb(195, 240, 255);
+    border-top: 10px solid #fff;
+}
+.third  > div {
+    margin: 35px;
+    text-align: center;
+    display:inline-block;
+    background-color: rgb(195, 240, 255);
+    }
+.third h1,.third p{
+     text-align: center;
+ }
+ .third hr{
+    width: 5%;
+    border: none;
+    border-top: 3px solid #B0B0B0;
+}
+.third img{
+    width: 300px;
+    height: 200px;
+    border-radius: 100%;
+}
+.fourth hr{
+        width: 5%;
+        border: none;
+        border-top: 3px solid #B0B0B0;
+    }
+.fourth h1{
+    text-align: center;
+}
+.fourth > div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: inline-block;
+    width: 24%;
+}
+.fourth h3 {
+    text-align: center;
+}
+.fourth img{
+    width:100% ;
+}
+.fifth hr{
+    width: 5%;
+    border: none;
+    border-top: 3px solid #B0B0B0;
+}
+.fifth h1{
+text-align: center;
+}
+.fifth{
+    background-color: bisque;
+    border-top: 10px solid #fff;
+}
+
+#boxes{
+margin: 0;
+display: flex;
+justify-content: center;
+}
+#boxes  button{
+    background-color: rgb(234, 195, 123);
+    border: 0;
+    margin-left: 20px;
+}
+#pixchers > div{
+    float: left;
+    text-align: center;
+    width: 50%;
+    background-color: bisque;
+}
+#pixchers img {
+    width: 500px;
+    height: 500px;
+    margin: 0;
+}
+#b button{
+    background-color: rgb(61, 185, 100);
+    margin: 0 auto;
+    display: block;
+    border: 0;
+    width: 250px;
+    height: 40px;
+    color: white;
+    font-weight: 900;
+    border-radius: 5%;
+}
+.six hr{
+    width: 5%;
+    border: none;
+    border-top: 3px solid #B0B0B0;
+}
+.six h1{
+text-align: center;
+}
+.six img{
+    border-radius: 100%;
+    width: 96px; 
+    height: 95px;
+}
+.six{
+    background-color: rgb(252, 97, 167);
+    color: white;
+    border-top: 10px solid #fff;
+} 
+.six > div{
+    background-color: rgb(252, 97, 167); 
+    width: 760px;
+}
+
+.six > div {
+    float: left; 
+    column-count: 2;
+} 
+
+
+.last hr{
+    width: 5%;
+    border: none;
+    border-top: 3px solid #B0B0B0;
+}
+.last h1{
+text-align: center;
+}
+.last {
+    background-color: rgb(89, 89, 183);
+}
+.last input{
+    margin-bottom: 10px;
+}
+#emale {
+    background-color: rgb(63, 63, 133);
+    width: 400px;
+    height: 30px;
+}
+#name{
+    background-color: rgb(63, 63, 133);
+    margin-left: 300px;
+    margin-right:100px;
+    width: 400px;
+    height: 30px;
+    color: white;
+}
+#notes {
+    background-color: rgb(63, 63, 133);
+    margin: 0 auto;
+    display: block;
+    width: 914px;
+    height: 200px;
+}
+::placeholder {
+    color: #fff;
+}
+#but button{  
+    background-color: rgb(2, 193, 231);
+    margin: 0 auto;
+    display: block;
+    border: 0;
+    width: 250px;
+    height: 40px;
+    color: white;
+    font-weight: 900;
+    border-radius: 5%;
+}
+
+footer{
+    border-top: 10px solid #fff;
+    background-color:  rgb(89, 89, 183);
+    text-align: center;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    color:aqua;
+    
+}
+button {
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.8;
+}
